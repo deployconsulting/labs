@@ -28,7 +28,6 @@ url: "https://deployconsulting.github.io" # the base hostname & protocol for you
 remote_theme: just-the-docs/just-the-docs
 plugins:
 - jekyll-remote-theme
-- jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -69,3 +68,8 @@ nav_external_links:
     hide_icon: false
 
 footer_content: "Copyright &copy; 2023 Deploy Consulting"
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.0.2"
