@@ -18,15 +18,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Deploy Labs
-email: your-email@example.com
+email: admin@deploycg.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Deploy Counsulting labs site for interactive training
 baseurl: "/labs" # the subpath of your site, e.g. /blog
 url: "https://deployconsulting.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 remote_theme: just-the-docs/just-the-docs
@@ -56,9 +52,11 @@ plugins:
 
 # Color scheme supports "light" (default) and "dark"
 #color_scheme: dark
+
 search_enabled: false
+
 gh_edit_link: true
-gh_edit_link_text: Edit this page on GitHub.
+gh_edit_link_text: Edit this page on GitHub
 gh_edit_repository: https://github.com/deployconsulting/labs
 gh_edit_branch: main # the branch that your docs is served from
 gh_edit_source: docs # the source that your files originate from
