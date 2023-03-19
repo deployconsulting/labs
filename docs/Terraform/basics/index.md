@@ -5,8 +5,6 @@ has_children: true
 parent: Terraform
 ---
 
-# Terraform Basics
-
 ## Objective
 
 ## Overview

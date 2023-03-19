@@ -28,6 +28,7 @@ url: "https://deployconsulting.github.io" # the base hostname & protocol for you
 remote_theme: just-the-docs/just-the-docs
 plugins:
 - jekyll-remote-theme
+- jekyll-titles-from-headings
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -86,7 +87,7 @@ kramdown:
   toc_levels: 2..3
   syntax_highlighter_opts:
     block:
-      line_numbers: true
+      line_numbers: false
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 mermaid:
