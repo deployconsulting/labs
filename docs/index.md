@@ -5,3 +5,7 @@ title: Home
 ---
 
 # Deploy Labs
+
+## Short Link
+
+[bit.ly/DCGLabs](https://bit.ly/DCGLabs)
