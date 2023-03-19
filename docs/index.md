@@ -2,7 +2,7 @@
 layout: home
 nav_order: 1
 title: Home
-last_modified_date: 2023-03-19T19:05:48
+last_modified_date: 2023-03-19T19:06:12
 ---
 
 # Deploy Labs
@@ -10,4 +10,3 @@ last_modified_date: 2023-03-19T19:05:48
 ## Short Link
 
 [bit.ly/DCGLabs](https://bit.ly/DCGLabs)
-p
