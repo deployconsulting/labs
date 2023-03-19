@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Setup
+title: Lab Setup
 parent: Terraform Basics
 grand_parent: Terraform
 nav_order: '0020'
 last_modified_date: 2023-03-18 22:39:00 +0400
 ---
 
-# Setup
+# Lab Setup
 
 * TOC
 {:toc}
@@ -16,7 +16,7 @@ last_modified_date: 2023-03-18 22:39:00 +0400
 
 Create and initialize an empty Terraform Project.
 
-## Setup Guide
+## Lab
 
 For the remainder of this lesson we need to set up a new Terraform project. The
 following shell commands will create a new folder, populate 3 empty files and
