@@ -28,7 +28,6 @@ url: "https://deployconsulting.github.io" # the base hostname & protocol for you
 remote_theme: just-the-docs/just-the-docs
 plugins:
 - jekyll-remote-theme
-- jekyll-titles-from-headings
 
 # Exclude from processing.
 # The following items will not be processed, by default.
