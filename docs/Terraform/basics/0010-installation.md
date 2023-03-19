@@ -7,6 +7,9 @@ nav_order: '0010'
 last_modified_date: 2023-03-18 20:01:00 +0400
 ---
 
+WIP
+{: .label .label-red }
+
 # Installation
 
 * TOC
@@ -22,7 +25,7 @@ Terraform is packaged as a single binary making it simple to install. Each
 operating system and architecture has a direct binary download link provided on
 the Hashicorp site. [Terraform Releases](https://releases.hashicorp.com/terraform/)
 
-## Installation Guide
+## Lab
 
 Terraform is straighforward to install. Most of the documentation below can be
 found in more detail at
