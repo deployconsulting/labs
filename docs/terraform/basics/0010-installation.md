@@ -4,7 +4,7 @@ title: Installation
 parent: Terraform Basics
 grand_parent: Terraform
 nav_order: '0010'
-last_modified_date: 2023-03-21T00:57:57
+last_modified_date: 2023-03-21T01:22:34
 ---
 
 # Installation
@@ -24,7 +24,7 @@ the Hashicorp site. [Terraform Releases](https://releases.hashicorp.com/terrafor
 
 ## Lab
 
-Terraform is straighforward to install. Most of the documentation below can be
+Terraform is straightforward to install. Most of the documentation below can be
 found in more detail at
 [Install Terraform](https://developer.hashicorp.com/terraform/downloads).
 
@@ -49,7 +49,7 @@ brew install hashicorp/tap/terraform
 The brew folder is likely already in your path if brew is correctly installed
 but if not the binary is likely at `/opt/homebrew/bin/terraform`.
 
-#### MacOS: Manual Installtion
+#### MacOS: Manual Installation
 
 Execute
 {: .label .label-green}
@@ -85,7 +85,7 @@ tar -xf terraform_%TFVERSION%_%TFOS%_%TFARCH%.zip
 
 #### Linux: Package Manager
 
-Every package manager on Linux will have a seperate process. As this varies so
+Every package manager on Linux will have a separate process. As this varies so
 much the best way to find out how to do it for your distro is using the official
 documentation: [Install Terraform](https://developer.hashicorp.com/terraform/downloads).
 
@@ -104,7 +104,7 @@ unzip terraform_${TFVERSION}_${TFOS}_${TFARCH}.zip
 
 ## Setting the PATH variable
 
-The PATH varialbe is used to tell the system where to look for executables
+The PATH variable is used to tell the system where to look for executables
 called by the terminal or a script. If you are unable to call `terraform` at
 this point it is likely not in your PATH. A message similar to "command not
 found" is usually a clear indication that the binary is not in your path. To fix
@@ -114,7 +114,7 @@ location of the binary to your PATH variable or use the full path when calling
 
 ## Verification
 
-To verify Terraform is installed succesfully and availble in your PATH call:
+To verify Terraform is installed successfully and available in your PATH call:
 
 Execute
 {: .label .label-green}
