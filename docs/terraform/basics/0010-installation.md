@@ -4,11 +4,8 @@ title: Installation
 parent: Terraform Basics
 grand_parent: Terraform
 nav_order: '0010'
-last_modified_date: 2023-03-18 20:01:00 +0400
+last_modified_date: 2023-03-21T00:57:57
 ---
-
-WIP
-{: .label .label-red }
 
 # Installation
 
@@ -33,13 +30,16 @@ found in more detail at
 
 ### MacOS
 
-#### Brew
+#### MacOS: Brew
 
 [Brew](https://brew.sh) is a package manager that takes care of installing
 applications along with their dependencies. It detects architectures and
 installs the correct binary. This method allows for a simple install as well as
 upgrade. Hashicorp maintains a tap for all of their products: hashicorp/tap. To
 install Terraform we just need to add the tap and call the install command.
+
+Execute
+{: .label .label-green}
 
 ```bash
 brew tap hashicorp/tap
@@ -50,6 +50,9 @@ The brew folder is likely already in your path if brew is correctly installed
 but if not the binary is likely at `/opt/homebrew/bin/terraform`.
 
 #### MacOS: Manual Installtion
+
+Execute
+{: .label .label-green}
 
 ```bash
 TFVERSION=1.4.2
@@ -67,6 +70,9 @@ Be sure to update the TFARCH variable to amd64 if you are on an Intel Mac.
 Hashicorp does not currently support any package managers on Windows. Manual
 installation is the only officially supported method.
 
+Execute
+{: .label .label-green}
+
 ```batch
 set TFVERSION=1.4.2
 set TFARCH=amd64
@@ -77,7 +83,16 @@ tar -xf terraform_%TFVERSION%_%TFOS%_%TFARCH%.zip
 
 ### Linux
 
+#### Linux: Package Manager
+
+Every package manager on Linux will have a seperate process. As this varies so
+much the best way to find out how to do it for your distro is using the official
+documentation: [Install Terraform](https://developer.hashicorp.com/terraform/downloads).
+
 #### Linux: Manual Installtion
+
+Execute
+{: .label .label-green}
 
 ```bash
 TFVERSION=1.4.2
@@ -101,6 +116,9 @@ location of the binary to your PATH variable or use the full path when calling
 
 To verify Terraform is installed succesfully and availble in your PATH call:
 
+Execute
+{: .label .label-green}
+
 ```bash
 terraform version
 ```
@@ -111,12 +129,12 @@ If an error is received during this step please revisit the PATH section above
 {: .note }
 
 Do not proceed from this section if the verification step fails. The remainder
-of this guide depends on terraform being available.
+of this guide depends on Terraform being available.
 {: .warning }
 
 ## Review
 
-In this section we installed terraform and ensured it was available for use
+In this section we installed Terraform and ensured it was available for use
 system-wide.
 
 ## Additional Reading
