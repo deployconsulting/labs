@@ -4,7 +4,7 @@ title: Outputs
 parent: Terraform Basics
 grand_parent: Terraform
 nav_order: '0050'
-last_modified_date: 2023-03-18 23:07:00 +0400
+last_modified_date: 2023-03-21T05:22:50
 ---
 
 # Outputs
@@ -22,6 +22,8 @@ Outputs return a value from a module. This value can be used in other modules or
 as user readable outputs.
 
 ## Lab
+
+In this lab we will create a static text output.
 
 ### Add a Static Output
 

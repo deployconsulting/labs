@@ -4,11 +4,8 @@ title: State
 parent: Terraform Basics
 grand_parent: Terraform
 nav_order: '0060'
-last_modified_date: 2023-03-21T02:23:52
+last_modified_date: 2023-03-21T05:22:50
 ---
-
-WIP
-{: .label .label-red }
 
 # State
 
@@ -33,6 +30,8 @@ is not meant to be edited manually. In the event that changes need to be made
 there are CLI commands that work with both local and remote state.
 
 ## Lab
+
+In this lab we will generate a state file and explore it.
 
 ### Apply current project
 
