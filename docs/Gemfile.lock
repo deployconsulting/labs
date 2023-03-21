@@ -8,8 +8,6 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    chef-utils (18.1.29)
-      concurrent-ruby
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -206,23 +204,12 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    mdl (0.12.0)
-      kramdown (~> 2.3)
-      kramdown-parser-gfm (~> 1.1)
-      mixlib-cli (~> 2.1, >= 2.1.1)
-      mixlib-config (>= 2.2.1, < 4)
-      mixlib-shellout
     mercenary (0.3.6)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.18.0)
-    mixlib-cli (2.1.8)
-    mixlib-config (3.0.27)
-      tomlrb
-    mixlib-shellout (3.2.7)
-      chef-utils
     nokogiri (1.14.2-arm64-darwin)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -252,7 +239,6 @@ GEM
       unf (~> 0.1.4)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
-    tomlrb (2.0.3)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
     tzinfo (2.0.6)
@@ -270,8 +256,6 @@ DEPENDENCIES
   github-pages
   http_parser.rb (~> 0.6.0)
   jekyll-remote-theme
-  jekyll-titles-from-headings
-  mdl
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)
