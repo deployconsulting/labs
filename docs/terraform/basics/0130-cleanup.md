@@ -4,7 +4,7 @@ title: Cleanup
 parent: Terraform Basics
 grand_parent: Terraform
 nav_order: '0130'
-last_modified_date: 2023-03-21T05:22:50
+last_modified_date: 2023-12-17T04:13:19
 ---
 
 # Cleanup
@@ -45,7 +45,7 @@ Execute
 {: .label .label-green}
 
 ```bash
-terraform destroy
+terraform apply
 ```
 
 ### Destroy Again
